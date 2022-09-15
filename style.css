@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   
+    background-color: white;
+    overflow-x: hidden;
+}
+nav
+{
+background-color: #047BD5;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+font-family:'Noto Sans', sans-serif;
+font-weight:300;
+}
+
+.Logo img
+{
+height: 45px;
+}
+.search{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    color: #047BD5;
+    border-radius: 3px;
+}
+.search input{
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.loginBtn{
+    width: 100px;
+    margin: 7px;
+    padding: 7px;
+    color: #047BD5;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.navlink  
+{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+.navlink  i
+{
+    font-size: 10px;
+}
+.category-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.category-col{
+    padding: 10px 0px;
+    cursor: pointer;
+    color: rgb(85, 83, 83)
+}
+.category-col h5:hover{
+    color: #047BD5;
+}
+.category-col img{
+    width: 64px;
+    height: 64px;
+    transition:300ms;
+}
+.category-col img:hover{
+    transform: scale(1.1)
+    
+}
+h5{
+    font-family: 'Noto Sans', sans-serif;;
+}
+.Banner img{
+width: 100%;
+height:300px;
+overflow: hidden;
+}
+
+.slider{
+    display: flex;
+    width: 400%;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 15s;
+   
+    
+}
+@keyframes slide{
+    0%{left:0Px;}
+    26.66%{left:0Px;}
+    33.33%{left:-1349Px;}
+    60%{left:-1349Px;}
+    66.66%{left:-2698Px;}
+    93.33%{left:-1349Px;}
+    100%{left:-4046px;}
+}
+.slider img{
+    width: 100%;
+}
+.card1 {
+ box-shadow: rgb(177, 174, 174) 0px 0px 10px;
+}
+.commonheading{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding:10px;
+    margin: 10px 0px; 
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 /15%);
+}
+.headingleft{
+    font-size: 10px;
+    padding:10px;
+    font-family: 'Noto Sans', sans-serif;
+    color:rgb(53, 51, 51)
+}
+.HeadingRight{
+    padding:10px;
+}
+.headingRight button{
+    width:90px;
+    height:40px;
+    background-color:#2874f0;
+    border:none;
+    color:white;
+    border-radius:2px; 
+    cursor: pointer;
+    margin-right:30px;
+}
+.card1itemslist{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 10px;
+    box-shadow: rgb(177, 174, 174) 0px 0px 10px;
+    padding:5px;
+    text-align:center;
+    line-height:22px;
+    
+}
+.card1itemslist img{
+height:160px;
+width: 160px;
+transition:300ms;
+cursor:pointer;
+}
+    .commonheading2{
+         display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding:10px;
+    margin: 10px 0px; 
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 /15%);
+    }
+    .heading2left{
+        font-size: 10px;
+        padding:10px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .heading2Right button{
+        width:90px;
+        height:40px;
+        background-color:#2874f0;
+        border:none;
+        color:white;
+        border-radius:2px; 
+        cursor: pointer;
+        margin-right:30px;
+        
+    }
+   
+    .card2itemslist{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 10px;
+        box-shadow: rgb(177, 174, 174) 0px 0px 10px;
+        padding:10px;
+        text-align:center;
+        line-height:22px;
+          
+    }
+  
+    .card1itemslist img:hover{
+        transform: scale(0.9)
+    }
+        .Card1itemslist h3,h4,h6{
+text-transform: capitalize;
+letter-spacing: 1px;
+cursor:pointer;
+font-family:'Noto Sans', sans-serif;
+        }
+        .Card1itemslist h{
+            margin-top: 20px;
+            font-size: 20px;   
+            color:rgb(53, 51, 51)
+        }
+        .Card1itemslist h4{
+            color: green;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        .Card1itemslist h6{
+            margin-bottom: 10px;
+            color: darkslategray;
+        }
+/*---------Footer------------*/
+footer{
+    background-color: #172337;
+    height: 332;
+}
+.footer-row{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    padding: 30px 60px;
+}
+.footer-row2{
+    display: flex;
+    border-top: 1px solid #454d5e;
+    justify-content: space-evenly;
+}
+.footerc1{
+    width: 15%;
+}
+.footerc2{
+    width: 15%;
+}
+.footerc3{
+    width: 15%;
+}
+.footerc4{
+    width: 10%;
+}
+.footerc5{
+    width: 20%;
+    border-left: 1px solid #454d5e;
+    height: 120px;
+    padding-left: 25px;
+}
+.footerc6{
+    width: 20%;
+    padding-left: 50px;
+
+}
+.footer-heading P{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400px;
+    text-align: left;
+padding: 10px 0px;
+cursor: pointer;
+text-transform: uppercase;
+font-family:'Noto Sans', sans-serif;
+}
+.footer-list a{
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 0px;
+    font-family:'Noto Sans', sans-serif;
+}
+.footer-list a:hover{
+    text-decoration: underline;
+}
+.footer-list p{
+    text-align: left;
+    display: left;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 0px;
+    height: 20px;
+    cursor: pointer;
+    line-height: 20px;
+    font-family:'Noto Sans', sans-serif;
+}
+.footer-list span{
+    color: rgb(60, 109, 245);
+    cursor: pointer;
+}
+/*.footer-row2{
+    background-color: #172337;
+}*/
+.footer-row2{
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    padding-top: 15px;
+    cursor: pointer;
+    line-height: 20px;
+    font-family:'Noto Sans', sans-serif;
+    background-color: #172337;
+}
